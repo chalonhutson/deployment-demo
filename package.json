@@ -14,7 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/chalonhutson/deployment-demo",
+  "homepage": "https://github.com/chalonhutson/deployment-demo.git",
   "dependencies": {
     "express": "^4.17.1"
   }
