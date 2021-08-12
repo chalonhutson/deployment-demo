@@ -3,10 +3,10 @@ const path = require("path");
 
 const app = express();
 
-app.get("/", (req, res) => {
+app.get("/", function (req, res) {
     res.sendFile(path.join(__dirname, "../index.html"))
-})
+});
 
 const port = process.env.PORT || 5050;
 
-app.listen(5050, ()=> console.log(`Up and running on Port ${port}, Captain!`));
+app.listen(port, ()=> console.log(`Up and running on Port ${port}, Captain!`));
